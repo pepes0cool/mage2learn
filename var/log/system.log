@@ -1,0 +1,467 @@
+[2025-06-21T15:17:42.587899+00:00] main.ERROR: Parameter validation failed
+#0 E:\xampp\htdocs\magento2\vendor\symfony\console\Command\Command.php(292): Magento\Setup\Console\Command\InstallCommand->initialize()
+#1 E:\xampp\htdocs\magento2\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#2 E:\xampp\htdocs\magento2\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#3 E:\xampp\htdocs\magento2\vendor\magento\framework\Console\Cli.php(122): Symfony\Component\Console\Application->doRun()
+#4 E:\xampp\htdocs\magento2\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun()
+#5 E:\xampp\htdocs\magento2\bin\magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2025-06-21T15:18:10.386502+00:00] main.ERROR: Parameter validation failed
+#0 E:\xampp\htdocs\magento2\vendor\symfony\console\Command\Command.php(292): Magento\Setup\Console\Command\InstallCommand->initialize()
+#1 E:\xampp\htdocs\magento2\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#2 E:\xampp\htdocs\magento2\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#3 E:\xampp\htdocs\magento2\vendor\magento\framework\Console\Cli.php(122): Symfony\Component\Console\Application->doRun()
+#4 E:\xampp\htdocs\magento2\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun()
+#5 E:\xampp\htdocs\magento2\bin\magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2025-06-21T15:20:01.803817+00:00] main.INFO: Source table payment_services_order_status_data_production_submitted_hash does not exist. Skipping data migration... [] []
+[2025-06-21T15:20:40.294676+00:00] main.ERROR: Search engine 'elasticsearch7' is not an available search engine.
+#0 E:\xampp\htdocs\magento2\setup\src\Magento\Setup\Model\SearchConfig.php(62): Magento\Setup\Model\SearchConfig->validateSearchEngineSelection()
+#1 E:\xampp\htdocs\magento2\setup\src\Magento\Setup\Model\Installer.php(1261): Magento\Setup\Model\SearchConfig->saveConfiguration()
+#2 [internal function]: Magento\Setup\Model\Installer->installSearchConfiguration()
+#3 E:\xampp\htdocs\magento2\setup\src\Magento\Setup\Model\Installer.php(422): call_user_func_array()
+#4 E:\xampp\htdocs\magento2\setup\src\Magento\Setup\Console\Command\InstallCommand.php(239): Magento\Setup\Model\Installer->install()
+#5 E:\xampp\htdocs\magento2\vendor\symfony\console\Command\Command.php(326): Magento\Setup\Console\Command\InstallCommand->execute()
+#6 E:\xampp\htdocs\magento2\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#7 E:\xampp\htdocs\magento2\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#8 E:\xampp\htdocs\magento2\vendor\magento\framework\Console\Cli.php(122): Symfony\Component\Console\Application->doRun()
+#9 E:\xampp\htdocs\magento2\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun()
+#10 E:\xampp\htdocs\magento2\bin\magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2025-06-21T15:22:21.116893+00:00] main.ERROR: Search engine 'elasticsearch' is not an available search engine.
+#0 E:\xampp\htdocs\magento2\setup\src\Magento\Setup\Model\SearchConfig.php(62): Magento\Setup\Model\SearchConfig->validateSearchEngineSelection()
+#1 E:\xampp\htdocs\magento2\setup\src\Magento\Setup\Model\Installer.php(1261): Magento\Setup\Model\SearchConfig->saveConfiguration()
+#2 [internal function]: Magento\Setup\Model\Installer->installSearchConfiguration()
+#3 E:\xampp\htdocs\magento2\setup\src\Magento\Setup\Model\Installer.php(422): call_user_func_array()
+#4 E:\xampp\htdocs\magento2\setup\src\Magento\Setup\Console\Command\InstallCommand.php(239): Magento\Setup\Model\Installer->install()
+#5 E:\xampp\htdocs\magento2\vendor\symfony\console\Command\Command.php(326): Magento\Setup\Console\Command\InstallCommand->execute()
+#6 E:\xampp\htdocs\magento2\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#7 E:\xampp\htdocs\magento2\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#8 E:\xampp\htdocs\magento2\vendor\magento\framework\Console\Cli.php(122): Symfony\Component\Console\Application->doRun()
+#9 E:\xampp\htdocs\magento2\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun()
+#10 E:\xampp\htdocs\magento2\bin\magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2025-06-21T15:25:51.738368+00:00] main.ERROR: Search engine 'elasticsearch7.17' is not an available search engine.
+#0 E:\xampp\htdocs\magento2\setup\src\Magento\Setup\Model\SearchConfig.php(62): Magento\Setup\Model\SearchConfig->validateSearchEngineSelection()
+#1 E:\xampp\htdocs\magento2\setup\src\Magento\Setup\Model\Installer.php(1261): Magento\Setup\Model\SearchConfig->saveConfiguration()
+#2 [internal function]: Magento\Setup\Model\Installer->installSearchConfiguration()
+#3 E:\xampp\htdocs\magento2\setup\src\Magento\Setup\Model\Installer.php(422): call_user_func_array()
+#4 E:\xampp\htdocs\magento2\setup\src\Magento\Setup\Console\Command\InstallCommand.php(239): Magento\Setup\Model\Installer->install()
+#5 E:\xampp\htdocs\magento2\vendor\symfony\console\Command\Command.php(326): Magento\Setup\Console\Command\InstallCommand->execute()
+#6 E:\xampp\htdocs\magento2\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#7 E:\xampp\htdocs\magento2\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#8 E:\xampp\htdocs\magento2\vendor\magento\framework\Console\Cli.php(122): Symfony\Component\Console\Application->doRun()
+#9 E:\xampp\htdocs\magento2\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun()
+#10 E:\xampp\htdocs\magento2\bin\magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2025-06-21T15:26:47.650462+00:00] main.ERROR: Search engine 'elasticsearch7' is not an available search engine.
+#0 E:\xampp\htdocs\magento2\setup\src\Magento\Setup\Model\SearchConfig.php(62): Magento\Setup\Model\SearchConfig->validateSearchEngineSelection()
+#1 E:\xampp\htdocs\magento2\setup\src\Magento\Setup\Model\Installer.php(1261): Magento\Setup\Model\SearchConfig->saveConfiguration()
+#2 [internal function]: Magento\Setup\Model\Installer->installSearchConfiguration()
+#3 E:\xampp\htdocs\magento2\setup\src\Magento\Setup\Model\Installer.php(422): call_user_func_array()
+#4 E:\xampp\htdocs\magento2\setup\src\Magento\Setup\Console\Command\InstallCommand.php(239): Magento\Setup\Model\Installer->install()
+#5 E:\xampp\htdocs\magento2\vendor\symfony\console\Command\Command.php(326): Magento\Setup\Console\Command\InstallCommand->execute()
+#6 E:\xampp\htdocs\magento2\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#7 E:\xampp\htdocs\magento2\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#8 E:\xampp\htdocs\magento2\vendor\magento\framework\Console\Cli.php(122): Symfony\Component\Console\Application->doRun()
+#9 E:\xampp\htdocs\magento2\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun()
+#10 E:\xampp\htdocs\magento2\bin\magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2025-06-21T15:34:15.512196+00:00] main.ERROR: Search engine 'elasticsearch7' is not an available search engine.
+#0 E:\xampp\htdocs\magento2\setup\src\Magento\Setup\Model\SearchConfig.php(62): Magento\Setup\Model\SearchConfig->validateSearchEngineSelection()
+#1 E:\xampp\htdocs\magento2\setup\src\Magento\Setup\Model\Installer.php(1261): Magento\Setup\Model\SearchConfig->saveConfiguration()
+#2 [internal function]: Magento\Setup\Model\Installer->installSearchConfiguration()
+#3 E:\xampp\htdocs\magento2\setup\src\Magento\Setup\Model\Installer.php(422): call_user_func_array()
+#4 E:\xampp\htdocs\magento2\setup\src\Magento\Setup\Console\Command\InstallCommand.php(239): Magento\Setup\Model\Installer->install()
+#5 E:\xampp\htdocs\magento2\vendor\symfony\console\Command\Command.php(326): Magento\Setup\Console\Command\InstallCommand->execute()
+#6 E:\xampp\htdocs\magento2\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#7 E:\xampp\htdocs\magento2\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#8 E:\xampp\htdocs\magento2\vendor\magento\framework\Console\Cli.php(122): Symfony\Component\Console\Application->doRun()
+#9 E:\xampp\htdocs\magento2\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun()
+#10 E:\xampp\htdocs\magento2\bin\magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2025-06-21T15:52:40.685566+00:00] main.ERROR: Parameter validation failed
+#0 E:\xampp\htdocs\magento2\vendor\symfony\console\Command\Command.php(292): Magento\Setup\Console\Command\InstallCommand->initialize()
+#1 E:\xampp\htdocs\magento2\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#2 E:\xampp\htdocs\magento2\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#3 E:\xampp\htdocs\magento2\vendor\magento\framework\Console\Cli.php(122): Symfony\Component\Console\Application->doRun()
+#4 E:\xampp\htdocs\magento2\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun()
+#5 E:\xampp\htdocs\magento2\bin\magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2025-06-21T15:54:21.029602+00:00] main.ERROR: Could not validate a connection to the OpenSearch. No alive nodes found in your cluster
+#0 E:\xampp\htdocs\magento2\setup\src\Magento\Setup\Model\SearchConfig.php(69): Magento\Setup\Model\SearchConfig->validateSearchEngine()
+#1 E:\xampp\htdocs\magento2\setup\src\Magento\Setup\Model\Installer.php(1261): Magento\Setup\Model\SearchConfig->saveConfiguration()
+#2 [internal function]: Magento\Setup\Model\Installer->installSearchConfiguration()
+#3 E:\xampp\htdocs\magento2\setup\src\Magento\Setup\Model\Installer.php(422): call_user_func_array()
+#4 E:\xampp\htdocs\magento2\setup\src\Magento\Setup\Console\Command\InstallCommand.php(239): Magento\Setup\Model\Installer->install()
+#5 E:\xampp\htdocs\magento2\vendor\symfony\console\Command\Command.php(326): Magento\Setup\Console\Command\InstallCommand->execute()
+#6 E:\xampp\htdocs\magento2\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#7 E:\xampp\htdocs\magento2\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#8 E:\xampp\htdocs\magento2\vendor\magento\framework\Console\Cli.php(122): Symfony\Component\Console\Application->doRun()
+#9 E:\xampp\htdocs\magento2\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun()
+#10 E:\xampp\htdocs\magento2\bin\magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2025-06-21T15:56:07.376309+00:00] main.ERROR: Unable to apply data patch Magento\Theme\Setup\Patch\Data\RegisterThemes for module Magento_Theme. Original exception message: Wrong file
+#0 E:\xampp\htdocs\magento2\setup\src\Magento\Setup\Model\Installer.php(1148): Magento\Framework\Setup\Patch\PatchApplier->applyDataPatch()
+#1 E:\xampp\htdocs\magento2\setup\src\Magento\Setup\Model\Installer.php(1020): Magento\Setup\Model\Installer->handleDBSchemaData()
+#2 [internal function]: Magento\Setup\Model\Installer->installDataFixtures()
+#3 E:\xampp\htdocs\magento2\setup\src\Magento\Setup\Model\Installer.php(422): call_user_func_array()
+#4 E:\xampp\htdocs\magento2\setup\src\Magento\Setup\Console\Command\InstallCommand.php(239): Magento\Setup\Model\Installer->install()
+#5 E:\xampp\htdocs\magento2\vendor\symfony\console\Command\Command.php(326): Magento\Setup\Console\Command\InstallCommand->execute()
+#6 E:\xampp\htdocs\magento2\vendor\symfony\console\Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#7 E:\xampp\htdocs\magento2\vendor\symfony\console\Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#8 E:\xampp\htdocs\magento2\vendor\magento\framework\Console\Cli.php(122): Symfony\Component\Console\Application->doRun()
+#9 E:\xampp\htdocs\magento2\vendor\symfony\console\Application.php(175): Magento\Framework\Console\Cli->doRun()
+#10 E:\xampp\htdocs\magento2\bin\magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2025-06-21T15:59:37.170689+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2025-06-21T15:59:37.172004+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2025-06-21T15:59:37.192867+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/jquery/jstree/themes/default/style.css is wrong. [] []
+[2025-06-21T15:59:37.192888+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/css/styles.css is wrong. [] []
+[2025-06-21T15:59:37.193834+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/jquery/jstree/themes/default/style.css is wrong. [] []
+[2025-06-21T15:59:37.193873+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/css/styles.css is wrong. [] []
+[2025-06-21T15:59:37.581058+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/requirejs/require.js is wrong. [] []
+[2025-06-21T15:59:37.581745+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/requirejs/require.js is wrong. [] []
+[2025-06-21T15:59:37.596249+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2025-06-21T15:59:37.596706+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/Magento_ReCaptchaUser/css/recaptcha.css is wrong. [] []
+[2025-06-21T15:59:37.596929+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2025-06-21T15:59:37.597315+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/Magento_ReCaptchaUser/css/recaptcha.css is wrong. [] []
+[2025-06-21T15:59:37.871443+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/images/magento-logo.svg is wrong. [] []
+[2025-06-21T15:59:37.872270+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/images/magento-logo.svg is wrong. [] []
+[2025-06-21T15:59:38.074183+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/Magento_Theme/favicon.ico is wrong. [] []
+[2025-06-21T15:59:38.074774+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/Magento_Theme/favicon.ico is wrong. [] []
+[2025-06-21T15:59:38.867606+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T15:59:40.409388+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/styles-m.css is wrong. [] []
+[2025-06-21T15:59:40.409574+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2025-06-21T15:59:40.410020+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/styles-m.css is wrong. [] []
+[2025-06-21T15:59:40.410259+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2025-06-21T15:59:40.429770+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/mage/calendar.css is wrong. [] []
+[2025-06-21T15:59:40.430546+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/mage/calendar.css is wrong. [] []
+[2025-06-21T15:59:40.627052+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/styles-l.css is wrong. [] []
+ []
+[2025-06-21T15:59:40.627752+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/requirejs/require.js is wrong. [] []
+[2025-06-21T15:59:40.627775+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/styles-l.css is wrong. [] []
+[2025-06-21T15:59:40.650918+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2025-06-21T15:59:40.651591+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2025-06-21T15:59:40.826260+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/regular/opensans-400.woff2 is wrong. [] []
+[2025-06-21T15:59:40.826453+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/light/opensans-300.woff2 is wrong. [] []
+[2025-06-21T15:59:40.826921+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/regular/opensans-400.woff2 is wrong. [] []
+[2025-06-21T15:59:40.827112+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/light/opensans-300.woff2 is wrong. [] []
+[2025-06-21T15:59:40.840038+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/semibold/opensans-600.woff2 is wrong. [] []
+[2025-06-21T15:59:40.840767+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/semibold/opensans-600.woff2 is wrong. [] []
+[2025-06-21T15:59:41.037286+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/Luma-Icons.woff2 is wrong. [] []
+[2025-06-21T15:59:41.037699+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/bold/opensans-700.woff2 is wrong. [] []
+[2025-06-21T15:59:41.038017+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/Luma-Icons.woff2 is wrong. [] []
+[2025-06-21T15:59:41.038453+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/bold/opensans-700.woff2 is wrong. [] []
+[2025-06-21T15:59:41.051714+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2025-06-21T15:59:41.052445+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2025-06-21T15:59:41.244406+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
+[2025-06-21T15:59:41.244922+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
+[2025-06-21T15:59:41.429993+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/Magento_Theme/favicon.ico is wrong. [] []
+[2025-06-21T15:59:41.430558+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/Magento_Theme/favicon.ico is wrong. [] []
+[2025-06-21T16:00:06.289312+00:00] main.ERROR: Transport error while sending email: Connection could not be established with host "localhost:25": stream_socket_client(): Unable to connect to localhost:25 (No connection could be made because the target machine actively refused it) [] []
+[2025-06-21T16:00:06.679686+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/jquery/jstree/themes/default/style.css is wrong. [] []
+[2025-06-21T16:00:06.679728+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/css/styles.css is wrong. [] []
+[2025-06-21T16:00:06.680595+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/jquery/jstree/themes/default/style.css is wrong. [] []
+[2025-06-21T16:00:06.680640+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/css/styles.css is wrong. [] []
+[2025-06-21T16:00:06.720671+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2025-06-21T16:00:06.721281+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2025-06-21T16:00:06.873074+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/requirejs/require.js is wrong. [] []
+[2025-06-21T16:00:06.873732+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/requirejs/require.js is wrong. [] []
+[2025-06-21T16:00:06.884926+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/Magento_TwoFactorAuth/css/tfa-screen.css is wrong. [] []
+[2025-06-21T16:00:06.885522+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/Magento_TwoFactorAuth/css/tfa-screen.css is wrong. [] []
+[2025-06-21T16:00:06.910220+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2025-06-21T16:00:06.910925+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2025-06-21T16:00:07.084102+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/images/magento-logo.svg is wrong. [] []
+[2025-06-21T16:00:07.084770+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/images/magento-logo.svg is wrong. [] []
+[2025-06-21T16:00:45.813792+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T16:01:00.005315+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/mage/calendar.css is wrong. [] []
+[2025-06-21T16:01:00.006217+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/mage/calendar.css is wrong. [] []
+[2025-06-21T16:01:00.299965+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/light/opensans-300.woff2 is wrong. [] []
+[2025-06-21T16:01:00.300794+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/light/opensans-300.woff2 is wrong. [] []
+[2025-06-21T16:01:00.569358+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/regular/opensans-400.woff2 is wrong. [] []
+[2025-06-21T16:01:00.570151+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/regular/opensans-400.woff2 is wrong. [] []
+[2025-06-21T16:01:00.631254+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/styles-m.css is wrong. [] []
+[2025-06-21T16:01:00.632724+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/styles-m.css is wrong. [] []
+[2025-06-21T16:01:00.633846+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2025-06-21T16:01:00.634746+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2025-06-21T16:01:00.847995+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/semibold/opensans-600.woff2 is wrong. [] []
+[2025-06-21T16:01:00.848850+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/semibold/opensans-600.woff2 is wrong. [] []
+[2025-06-21T16:01:00.890805+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/Luma-Icons.woff2 is wrong. [] []
+[2025-06-21T16:01:00.891954+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/Luma-Icons.woff2 is wrong. [] []
+[2025-06-21T16:01:00.904369+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/bold/opensans-700.woff2 is wrong. [] []
+[2025-06-21T16:01:00.905253+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/bold/opensans-700.woff2 is wrong. [] []
+[2025-06-21T16:01:01.128572+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2025-06-21T16:01:01.129369+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2025-06-21T16:01:02.404464+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/styles-l.css is wrong. [] []
+[2025-06-21T16:01:02.405374+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/styles-l.css is wrong. [] []
+[2025-06-21T16:01:02.449622+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2025-06-21T16:01:02.450641+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2025-06-21T16:01:02.592486+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/requirejs/require.js is wrong. [] []
+[2025-06-21T16:01:02.593195+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/requirejs/require.js is wrong. [] []
+[2025-06-21T16:01:02.664283+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
+[2025-06-21T16:01:02.664939+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
+[2025-06-21T16:04:21.297829+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T16:05:00.601323+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T16:09:37.657214+00:00] main.ERROR: Sample Data error: Warning: file_get_contents(E:/xampp/htdocs/magento2/pub/media/downloadable/files/links/l/u/luma_background_-_model_against_fence_4_sec_.mp4): Failed to open stream: No such file or directory in E:\xampp\htdocs\magento2\vendor\magento\module-downloadable-sample-data\Model\Product\Converter.php on line 132 [] []
+[2025-06-21T16:11:05.872842+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-06-21T16:11:05.953367+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-06-21T16:11:06.049679+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-06-21T16:11:06.240295+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-06-21T16:11:06.317988+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-06-21T16:11:06.413852+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-06-21T16:11:08.517972+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 3334; Allocated memory size: 40008000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-06-21T16:11:44.899228+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T16:12:03.387093+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2025-06-21T16:12:03.388178+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2025-06-21T16:12:03.388210+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/mage/calendar.css is wrong. [] []
+[2025-06-21T16:12:03.398335+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/styles-m.css is wrong. [] []
+[2025-06-21T16:12:03.399264+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/styles-m.css is wrong. [] []
+[2025-06-21T16:12:03.812776+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/requirejs/require.js is wrong. [] []
+[2025-06-21T16:12:03.813256+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/styles-l.css is wrong. [] []
+[2025-06-21T16:12:03.813342+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2025-06-21T16:12:03.813628+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/requirejs/require.js is wrong. [] []
+[2025-06-21T16:12:03.814105+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/styles-l.css is wrong. [] []
+[2025-06-21T16:12:03.814139+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2025-06-21T16:12:04.043599+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/light/opensans-300.woff2 is wrong. [] []
+[2025-06-21T16:12:04.044210+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/light/opensans-300.woff2 is wrong. [] []
+[2025-06-21T16:12:04.069766+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/regular/opensans-400.woff2 is wrong. [] []
+
+[2025-06-21T16:12:04.070475+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/semibold/opensans-600.woff2 is wrong. [] []
+[2025-06-21T16:12:04.070561+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/regular/opensans-400.woff2 is wrong. [] []
+[2025-06-21T16:12:04.272852+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/bold/opensans-700.woff2 is wrong. [] []
+[2025-06-21T16:12:04.273527+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/bold/opensans-700.woff2 is wrong. [] []
+[2025-06-21T16:12:04.303960+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2025-06-21T16:12:04.304069+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/Luma-Icons.woff2 is wrong. [] []
+[2025-06-21T16:12:04.304588+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2025-06-21T16:12:04.304687+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/Luma-Icons.woff2 is wrong. [] []
+[2025-06-21T16:12:05.201035+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
+[2025-06-21T16:12:05.201823+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
+[2025-06-21T16:12:07.362100+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/Magento_Theme/favicon.ico is wrong. [] []
+[2025-06-21T16:12:07.363358+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/Magento_Theme/favicon.ico is wrong. [] []
+[2025-06-21T16:12:38.607372+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T16:12:39.786102+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/jquery/jstree/themes/default/style.css is wrong. [] []
+[2025-06-21T16:12:39.786430+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2025-06-21T16:12:39.786984+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/jquery/jstree/themes/default/style.css is wrong. [] []
+[2025-06-21T16:12:39.787271+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2025-06-21T16:12:39.801027+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/css/styles.css is wrong. [] []
+[2025-06-21T16:12:39.801906+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/css/styles.css is wrong. [] []
+[2025-06-21T16:12:40.032074+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2025-06-21T16:12:40.033137+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2025-06-21T16:12:40.035482+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/requirejs/require.js is wrong. [] []
+[2025-06-21T16:12:40.036306+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/requirejs/require.js is wrong. [] []
+[2025-06-21T16:12:40.053931+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/images/magento-icon.svg is wrong. [] []
+[2025-06-21T16:12:40.054683+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/images/magento-icon.svg is wrong. [] []
+[2025-06-21T16:12:41.222135+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/Magento_Theme/favicon.ico is wrong. [] []
+[2025-06-21T16:12:41.222837+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/Magento_Theme/favicon.ico is wrong. [] []
+[2025-06-21T16:12:53.658349+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/css/styles.css is wrong. [] []
+[2025-06-21T16:12:53.659102+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/css/styles.css is wrong. [] []
+[2025-06-21T16:12:53.659315+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2025-06-21T16:12:53.660155+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2025-06-21T16:12:53.667749+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/images/magento-icon.svg is wrong. [] []
+[2025-06-21T16:12:53.668852+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/images/magento-icon.svg is wrong. [] []
+[2025-06-21T16:12:53.679448+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/jquery/jstree/themes/default/style.css is wrong. [] []
+[2025-06-21T16:12:53.680151+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/jquery/jstree/themes/default/style.css is wrong. [] []
+[2025-06-21T16:12:53.680407+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/requirejs/require.js is wrong. [] []
+[2025-06-21T16:12:53.681216+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/requirejs/require.js is wrong. [] []
+[2025-06-21T16:12:53.684394+00:00] main.ERROR: Requested path adminhtml/Magento/backend/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2025-06-21T16:12:53.685282+00:00] main.CRITICAL: Requested path adminhtml/Magento/backend/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2025-06-21T16:25:21.315474+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T16:25:27.073403+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T16:25:35.769281+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T16:25:38.470361+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T16:25:39.747015+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T16:25:40.628010+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T16:25:42.432803+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T16:25:45.370111+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T16:25:48.226313+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T16:25:49.568362+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T16:25:51.223904+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T16:34:35.176751+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T16:34:44.452747+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T16:34:44.594138+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T16:35:02.316172+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T16:35:07.222082+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T16:35:15.940298+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T16:35:16.103704+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T16:35:25.921954+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T16:35:36.491979+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T16:35:45.496376+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T16:35:45.597732+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T16:40:50.704364+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T16:40:57.015705+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T16:41:15.450793+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T16:41:30.675536+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T16:41:32.708564+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T16:47:16.382788+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T16:47:27.304943+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T16:50:07.130348+00:00] main.ERROR: SQLSTATE[HY000] [1698] Access denied for user 'root'@'localhost'
+#0 /mnt/e/xampp/htdocs/magento2/vendor/magento/zend-db/library/Zend/Db/Adapter/Pdo/Mysql.php(111): Zend_Db_Adapter_Pdo_Abstract->_connect()
+#1 /mnt/e/xampp/htdocs/magento2/vendor/magento/framework/DB/Adapter/Pdo/Mysql.php(512): Zend_Db_Adapter_Pdo_Mysql->_connect()
+#2 /mnt/e/xampp/htdocs/magento2/vendor/magento/zend-db/library/Zend/Db/Adapter/Abstract.php(460): Magento\Framework\DB\Adapter\Pdo\Mysql->_connect()
+#3 /mnt/e/xampp/htdocs/magento2/vendor/magento/zend-db/library/Zend/Db/Adapter/Pdo/Abstract.php(242): Zend_Db_Adapter_Abstract->query()
+#4 /mnt/e/xampp/htdocs/magento2/vendor/magento/framework/DB/Adapter/Pdo/Mysql.php(641): Zend_Db_Adapter_Pdo_Abstract->query()
+#5 /mnt/e/xampp/htdocs/magento2/vendor/magento/framework/DB/Adapter/Pdo/Mysql.php(667): Magento\Framework\DB\Adapter\Pdo\Mysql->Magento\Framework\DB\Adapter\Pdo\{closure}()
+#6 /mnt/e/xampp/htdocs/magento2/vendor/magento/framework/DB/Adapter/Pdo/Mysql.php(641): Magento\Framework\DB\Adapter\Pdo\Mysql->performQuery()
+#7 /mnt/e/xampp/htdocs/magento2/vendor/magento/framework/DB/Adapter/Pdo/Mysql.php(731): Magento\Framework\DB\Adapter\Pdo\Mysql->_query()
+#8 /mnt/e/xampp/htdocs/magento2/vendor/magento/framework/Lock/Backend/Database.php(82): Magento\Framework\DB\Adapter\Pdo\Mysql->query()
+#9 /mnt/e/xampp/htdocs/magento2/vendor/magento/framework/Lock/Proxy.php(56): Magento\Framework\Lock\Backend\Database->lock()
+#10 /mnt/e/xampp/htdocs/magento2/vendor/magento/framework/Cache/LockGuardedCacheLoader.php(129): Magento\Framework\Lock\Proxy->lock()
+#11 /mnt/e/xampp/htdocs/magento2/vendor/magento/module-config/App/Config/Type/System.php(552): Magento\Framework\Cache\LockGuardedCacheLoader->lockedLoadData()
+#12 /mnt/e/xampp/htdocs/magento2/vendor/magento/module-config/Plugin/Framework/App/Cache/TypeList/WarmConfigCache.php(50): Magento\Config\App\Config\Type\System->cleanAndWarmDefaultScopeData()
+#13 /mnt/e/xampp/htdocs/magento2/vendor/magento/framework/Interception/Interceptor.php(135): Magento\Config\Plugin\Framework\App\Cache\TypeList\WarmConfigCache->aroundCleanType()
+#14 /mnt/e/xampp/htdocs/magento2/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Cache\TypeList\Interceptor->Magento\Framework\Interception\{closure}()
+#15 /mnt/e/xampp/htdocs/magento2/generated/code/Magento/Framework/App/Cache/TypeList/Interceptor.php(23): Magento\Framework\App\Cache\TypeList\Interceptor->___callPlugins()
+#16 /mnt/e/xampp/htdocs/magento2/vendor/magento/framework/App/Cache/Manager.php(91): Magento\Framework\App\Cache\TypeList\Interceptor->cleanType()
+#17 /mnt/e/xampp/htdocs/magento2/vendor/magento/module-backend/Console/Command/CacheCleanCommand.php(39): Magento\Framework\App\Cache\Manager->clean()
+#18 /mnt/e/xampp/htdocs/magento2/vendor/magento/module-backend/Console/Command/AbstractCacheTypeManageCommand.php(64): Magento\Backend\Console\Command\CacheCleanCommand->performAction()
+#19 /mnt/e/xampp/htdocs/magento2/vendor/symfony/console/Command/Command.php(326): Magento\Backend\Console\Command\AbstractCacheTypeManageCommand->execute()
+#20 /mnt/e/xampp/htdocs/magento2/vendor/magento/framework/Interception/Interceptor.php(58): Symfony\Component\Console\Command\Command->run()
+#21 /mnt/e/xampp/htdocs/magento2/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Backend\Console\Command\CacheCleanCommand\Interceptor->___callParent()
+#22 /mnt/e/xampp/htdocs/magento2/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Backend\Console\Command\CacheCleanCommand\Interceptor->Magento\Framework\Interception\{closure}()
+#23 /mnt/e/xampp/htdocs/magento2/generated/code/Magento/Backend/Console/Command/CacheCleanCommand/Interceptor.php(23): Magento\Backend\Console\Command\CacheCleanCommand\Interceptor->___callPlugins()
+#24 /mnt/e/xampp/htdocs/magento2/vendor/symfony/console/Application.php(1078): Magento\Backend\Console\Command\CacheCleanCommand\Interceptor->run()
+#25 /mnt/e/xampp/htdocs/magento2/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#26 /mnt/e/xampp/htdocs/magento2/vendor/magento/framework/Console/Cli.php(122): Symfony\Component\Console\Application->doRun()
+#27 /mnt/e/xampp/htdocs/magento2/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#28 /mnt/e/xampp/htdocs/magento2/bin/magento(23): Symfony\Component\Console\Application->run()
+#29 {main} [] []
+[2025-06-21T16:50:37.009896+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T16:51:41.581734+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-06-21T16:51:41.675227+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-06-21T16:51:41.774385+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-06-21T16:51:42.019047+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-06-21T16:51:42.096660+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-06-21T16:51:42.173900+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-06-21T16:51:45.167938+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 3334; Allocated memory size: 40008000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-06-21T16:52:08.372250+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T16:52:09.152321+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2025-06-21T16:52:09.155303+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2025-06-21T16:52:09.176833+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/mage/calendar.css is wrong. [] []
+[2025-06-21T16:52:09.178302+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/mage/calendar.css is wrong. [] []
+[2025-06-21T16:52:09.312895+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/styles-m.css is wrong. [] []
+[2025-06-21T16:52:09.315405+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/styles-m.css is wrong. [] []
+[2025-06-21T16:52:09.553696+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/requirejs/require.js is wrong. [] []
+[2025-06-21T16:52:09.554901+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/requirejs/require.js is wrong. [] []
+[2025-06-21T16:52:09.615822+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/styles-l.css is wrong. [] []
+[2025-06-21T16:52:09.617170+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/styles-l.css is wrong. [] []
+[2025-06-21T16:52:09.791174+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2025-06-21T16:52:09.792772+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2025-06-21T16:52:10.018088+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/regular/opensans-400.woff2 is wrong. [] []
+[2025-06-21T16:52:10.019430+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/regular/opensans-400.woff2 is wrong. [] []
+[2025-06-21T16:52:10.046987+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/light/opensans-300.woff2 is wrong. [] []
+[2025-06-21T16:52:10.048098+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/light/opensans-300.woff2 is wrong. [] []
+[2025-06-21T16:52:10.258370+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/semibold/opensans-600.woff2 is wrong. [] []
+[2025-06-21T16:52:10.260115+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/semibold/opensans-600.woff2 is wrong. [] []
+[2025-06-21T16:52:10.379055+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/bold/opensans-700.woff2 is wrong. [] []
+[2025-06-21T16:52:10.380607+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/bold/opensans-700.woff2 is wrong. [] []
+[2025-06-21T16:52:10.458271+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/Luma-Icons.woff2 is wrong. [] []
+[2025-06-21T16:52:10.460136+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/Luma-Icons.woff2 is wrong. [] []
+[2025-06-21T16:52:10.669347+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2025-06-21T16:52:10.670842+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2025-06-21T16:52:10.736243+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
+[2025-06-21T16:52:10.737482+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
+[2025-06-21T16:52:11.105835+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/Magento_Theme/favicon.ico is wrong. [] []
+[2025-06-21T16:52:11.106867+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/Magento_Theme/favicon.ico is wrong. [] []
+[2025-06-21T16:53:28.233629+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T16:53:28.788879+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/styles-m.css is wrong. [] []
+[2025-06-21T16:53:28.789706+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/styles-m.css is wrong. [] []
+[2025-06-21T16:53:28.819324+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/mage/calendar.css is wrong. [] []
+[2025-06-21T16:53:28.820338+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/mage/calendar.css is wrong. [] []
+[2025-06-21T16:53:28.831248+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2025-06-21T16:53:28.832212+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2025-06-21T16:53:29.033318+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/styles-l.css is wrong. [] []
+[2025-06-21T16:53:29.034078+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/styles-l.css is wrong. [] []
+[2025-06-21T16:53:29.059743+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/requirejs/require.js is wrong. [] []
+[2025-06-21T16:53:29.060485+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/requirejs/require.js is wrong. [] []
+[2025-06-21T16:53:29.136988+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2025-06-21T16:53:29.137908+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2025-06-21T16:53:29.281412+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/light/opensans-300.woff2 is wrong. [] []
+[2025-06-21T16:53:29.282116+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/light/opensans-300.woff2 is wrong. [] []
+[2025-06-21T16:53:29.296462+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/regular/opensans-400.woff2 is wrong. [] []
+[2025-06-21T16:53:29.297183+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/regular/opensans-400.woff2 is wrong. [] []
+[2025-06-21T16:53:29.382195+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/semibold/opensans-600.woff2 is wrong. [] []
+[2025-06-21T16:53:29.383216+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/semibold/opensans-600.woff2 is wrong. [] []
+[2025-06-21T16:53:29.542227+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/bold/opensans-700.woff2 is wrong. [] []
+[2025-06-21T16:53:29.543118+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/bold/opensans-700.woff2 is wrong. [] []
+[2025-06-21T16:53:29.552626+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/Luma-Icons.woff2 is wrong. [] []
+[2025-06-21T16:53:29.553377+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/Luma-Icons.woff2 is wrong. [] []
+[2025-06-21T16:53:29.646279+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2025-06-21T16:53:29.647098+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2025-06-21T16:53:29.788802+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
+[2025-06-21T16:53:29.789525+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
+[2025-06-21T16:54:19.601530+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2025-06-21T16:54:19.601574+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/mage/calendar.css is wrong. [] []
+[2025-06-21T16:54:19.603216+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/mage/calendar.css is wrong. [] []
+s wrong. [] []
+[2025-06-21T16:54:19.615789+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/styles-m.css is wrong. [] []
+[2025-06-21T16:54:19.616781+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/styles-m.css is wrong. [] []
+[2025-06-21T16:54:20.037037+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/styles-l.css is wrong. [] []
+[2025-06-21T16:54:20.038729+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/styles-l.css is wrong. [] []
+[2025-06-21T16:54:20.056581+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/requirejs/require.js is wrong. [] []
+[2025-06-21T16:54:20.057902+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/requirejs/require.js is wrong. [] []
+[2025-06-21T16:54:20.545124+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2025-06-21T16:54:20.546514+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2025-06-21T16:54:20.550904+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/light/opensans-300.woff2 is wrong. [] []
+[2025-06-21T16:54:20.552317+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/light/opensans-300.woff2 is wrong. [] []
+[2025-06-21T16:54:21.108691+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/regular/opensans-400.woff2 is wrong. [] []
+[2025-06-21T16:54:21.108895+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/semibold/opensans-600.woff2 is wrong. [] []
+[2025-06-21T16:54:21.110256+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/regular/opensans-400.woff2 is wrong. [] []
+[2025-06-21T16:54:21.110361+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/semibold/opensans-600.woff2 is wrong. [] []
+[2025-06-21T16:54:21.621152+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/Luma-Icons.woff2 is wrong. [] []
+[2025-06-21T16:54:21.622639+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/Luma-Icons.woff2 is wrong. [] []
+[2025-06-21T16:54:21.629096+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2025-06-21T16:54:21.630194+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2025-06-21T16:54:21.857703+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/bold/opensans-700.woff2 is wrong. [] []
+[2025-06-21T16:54:21.858978+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/bold/opensans-700.woff2 is wrong. [] []
+[2025-06-21T16:54:21.968473+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
+[2025-06-21T16:54:21.969285+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
+[2025-06-21T16:54:22.265617+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/Magento_Theme/favicon.ico is wrong. [] []
+[2025-06-21T16:54:22.266787+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/Magento_Theme/favicon.ico is wrong. [] []
+[2025-06-21T16:54:32.477067+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/styles-l.css is wrong. [] []
+[2025-06-21T16:54:32.477290+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/mage/calendar.css is wrong. [] []
+[2025-06-21T16:54:32.478676+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/styles-l.css is wrong. [] []
+[2025-06-21T16:54:32.478738+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/mage/calendar.css is wrong. [] []
+[2025-06-21T16:54:32.487769+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2025-06-21T16:54:32.488820+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/jquery/uppy/dist/uppy-custom.css is wrong. [] []
+[2025-06-21T16:54:32.549231+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/css/styles-m.css is wrong. [] []
+[2025-06-21T16:54:32.550674+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/styles-m.css is wrong. [] []
+[2025-06-21T16:54:32.760601+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/requirejs/require.js is wrong. [] []
+[2025-06-21T16:54:32.762622+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/requirejs/require.js is wrong. [] []
+[2025-06-21T16:54:32.856652+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2025-06-21T16:54:32.857357+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/regular/opensans-400.woff2 is wrong. [] []
+[2025-06-21T16:54:32.857573+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/mage/requirejs/mixins.js is wrong. [] []
+[2025-06-21T16:54:32.857413+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/light/opensans-300.woff2 is wrong. [] []
+[2025-06-21T16:54:32.858229+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/regular/opensans-400.woff2 is wrong. [] []
+[2025-06-21T16:54:32.858304+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/light/opensans-300.woff2 is wrong. [] []
+[2025-06-21T16:54:32.945850+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/semibold/opensans-600.woff2 is wrong. [] []
+[2025-06-21T16:54:32.946867+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/semibold/opensans-600.woff2 is wrong. [] []
+[2025-06-21T16:54:33.177124+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/opensans/bold/opensans-700.woff2 is wrong. [] []
+[2025-06-21T16:54:33.178113+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/opensans/bold/opensans-700.woff2 is wrong. [] []
+[2025-06-21T16:54:33.197693+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/fonts/Luma-Icons.woff2 is wrong. [] []
+[2025-06-21T16:54:33.198551+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/fonts/Luma-Icons.woff2 is wrong. [] []
+[2025-06-21T16:54:33.211231+00:00] main.ERROR: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2025-06-21T16:54:33.212145+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/css/print.css is wrong. [] []
+[2025-06-21T16:54:33.212247+00:00] main.CRITICAL: Requested path frontend/Magento/luma/en_US/images/logo.svg is wrong. [] []
+[2025-06-21T16:55:51.313444+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-06-21T16:55:51.411633+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-06-21T16:55:51.530547+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-06-21T16:55:53.619976+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 3334; Allocated memory size: 40008000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-06-21T16:56:44.069903+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-06-21T16:56:44.149465+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-06-21T16:56:44.223539+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-06-21T16:56:44.449672+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-06-21T16:56:44.528996+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-06-21T16:56:44.616343+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 100000; Allocated memory size: 50000000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-06-21T16:56:47.585533+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 3334; Allocated memory size: 40008000 bytes; InnoDB buffer pool size: 134217728 bytes. [] []
+[2025-06-21T16:58:09.642707+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T16:58:17.982053+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T16:58:22.242942+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-21T16:58:37.278609+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-22T04:47:52.620842+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-22T04:48:05.156925+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-22T04:48:12.411858+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-22T04:48:16.473930+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-22T04:48:21.471075+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-22T05:12:32.361418+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-22T05:13:54.157539+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
