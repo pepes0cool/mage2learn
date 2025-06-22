@@ -377,13 +377,13 @@ return [
         'Magento_WishlistAnalytics' => 1,
         'Magento_WishlistGraphQl' => 1,
         'Magento_WishlistSampleData' => 1,
-        'MageMastery_Popup' => 1,
         'PayPal_Braintree' => 1,
         'PayPal_BraintreeCustomerBalance' => 1,
         'PayPal_BraintreeGiftCard' => 1,
         'PayPal_BraintreeGiftCardAccount' => 1,
         'PayPal_BraintreeGiftWrapping' => 1,
         'PayPal_BraintreeGraphQl' => 1,
-        'PayPal_BraintreeReward' => 1
+        'PayPal_BraintreeReward' => 1,
+        'Training_Sales' => 1
     ]
 ];
