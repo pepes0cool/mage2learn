@@ -1,4 +1,4 @@
 vendor/
-var/
-pub/
-generated/
+/pub/
+/var/
+/generated/
