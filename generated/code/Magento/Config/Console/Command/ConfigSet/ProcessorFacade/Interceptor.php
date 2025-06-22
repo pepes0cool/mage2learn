@@ -17,15 +17,6 @@ class Interceptor extends \Magento\Config\Console\Command\ConfigSet\ProcessorFac
     /**
      * {@inheritdoc}
      */
-    public function process($path, $value, $scope, $scopeCode, $lock)
-    {
-        $pluginInfo = $this->pluginList->getNext($this->subjectType, 'process');
-        return $pluginInfo ? $this->___callPlugins('process', func_get_args(), $pluginInfo) : parent::process($path, $value, $scope, $scopeCode, $lock);
-    }
-
-    /**
-     * {@inheritdoc}
-     */
     public function processWithLockTarget($path, $value, $scope, $scopeCode, $lock, $lockTarget = 'app_env')
     {
         $pluginInfo = $this->pluginList->getNext($this->subjectType, 'processWithLockTarget');
